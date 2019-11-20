@@ -1,0 +1,93 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# admtp
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+__admtp__ compiles all of the [R](https://www.r-project.org/) code required in the 'Adaptive Designs and Multiple Testing Procedures' course run by [Michael Grayling](https://www.ncl.ac.uk/medical-sciences/people/profile/michaelgrayling.html), [Adrian Mander](https://www.cardiff.ac.uk/people/view/1499902-mander-adrian), [David Robertson](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/n-to-s/david-robertson/), and [James Wason](https://www.ncl.ac.uk/medical-sciences/people/profile/jameswason.html).
+
+## Installation
+
+You can install the latest development version of __admtp__ from [Github](https://github.com/) with:
+
+```{r, eval = F}
+devtools::install_github("mjg211/admtp")
+```
+
+## All
+
+- Questions/Solutions to be added to /inst or vignette?
+
+## Practical 1
+
+- `error_rates()`: Done
+- `test_corrections()`: Done
+- `power_of_test_corrections()`: Done
+
+## Practical 2
+
+- `mtp_power()`: Needs help details and error checks
+- `gMCP()`: Needs help details and error checks
+- `calcPower()`: Needs help details and error checks
+- `simConfint()`: Needs help details and error checks
+
+## Practical 3
+
+- `des_fixed()`: Done (will add to __OptGS__)
+- Uses functions from __mvtnorm__ and __singlearm__ that can be set up to be auto installed
+- `practical3.R`: Majority contains no functions
+
+## Practical 4
+
+- `des_fixed()`: Done (will add to __OptGS__)
+- Uses functions from __OptGS__ and __MAMS__ that can be set up to be auto installed
+- `sim_gs()`: Now available in __OptGS__
+- `des_ma()` and `mams_sep()`: Now available in __multiarm__
+
+## Practical 5
+
+- `operatingcharacteristcs_dtl.R`: Now available in __multiarm__
+- `allocation()`: Needs help details and error checks
+- `differenceinbeta_givenx()`: Needs help details and error checks
+- `differenceinbeta()`: Needs help details and error checks
+- `findposterior()`: Needs help details and error checks
+- `simulateadaptiveenrichment()`: Needs help details and error checks
+- `operatingcharacteristics()`: Needs help details and error checks
+
+## Practical 6
+
+- `addarm()`: Needs help details and error checks
+- `practical6.R`: No functions
+
+## Practical 7
+
+- `des_triangular()`: Now available in __OptGS__
+- `sim_gs()`: Now available in __OptGS__
+- `ssre_delta_density()`: Needs help details and error checks
+- `ssre_delta_find_e2()`: Needs help details and error checks
+- `ssre_delta()`: Needs help details and error checks
+- `ssre_sigma()`: Needs help details and error checks
+
+## Practical 8
+
+- All `gMCP_basic.R` files covered above for Practical 2
+- `sim_gs()`: Now available in __OptGS__
+- `pvaladjp()`: Needs help details and error checks
+- `pvaltrunc()`: Needs help details and error checks
+- `bonf()`: Needs help details and error checks
+- `simes()`: Needs help details and error checks
+- `incsimes()`: Needs help details and error checks

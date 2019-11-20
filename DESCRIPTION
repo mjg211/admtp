@@ -1,0 +1,35 @@
+Package: admtp
+Type: Package
+Title: Code for an Adaptive Designs and Multiple Testing Procedures training
+    course
+Version: 0.1.0
+Authors@R: c(person(given   = "Michael J",
+                    family  = "Grayling",
+                    email   = "michael.grayling@newcastle.ac.uk",
+                    role    = c("aut", "cre"),
+                    comment = c(ORCID = "0000-0002-0680-6668")),
+             person(given   = "Adrian P",
+                    family  = "Mander",
+                    email   = "ManderA@cardiff.ac.uk",
+                    role    = c("aut"),
+                    comment = c(ORCID = "0000-0002-0742-9040")),
+             person(given   = "David S",
+                    family  = "Robertson",
+                    email   = "david.robertson@mrc-bsu.ac.uk",
+                    role    = c("aut"),
+                    comment = c(ORCID = "0000-0002-0742-9040")),
+             person(given   = "James MS",
+                    family  = "Wason",
+                    email   = "james.wason@newcastle.ac.uk",
+                    role    = c("aut"),
+                    comment = c(ORCID = "0000-0002-4691-126X")))
+Description: Contains all of the R code required for the 'Adaptive Designs and
+    Multiple Testing Procedures' course run by Grayling, Mander, Robertson, and
+    Wason.
+License: MIT + file LICENSE
+Date: 2019-11-19
+URL: https://github.com/mjg211/admtp
+BugReports: https://github.com/mjg211/admtp/issues
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.1.1
